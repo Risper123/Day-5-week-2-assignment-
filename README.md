@@ -34,3 +34,32 @@ spiderman.perform_action()
 spiderman.save_the_day()
 
 Create a program that includes animals or vehicles with the same action (like move()). However, make each class define move() differently (for example, Car.move() prints "Driving" 🚗, while Plane.move() prints "Flying" ✈️).
+
+class Animal:
+    def move(self):
+        print("Moving")
+
+class Dog(Animal):
+    def move(self):
+        print("Running 🐕")
+
+class Fish(Animal):
+    def move(self):
+        print("Swimming 🐟")
+
+class Vehicle:
+    def move(self):
+        print("Moving")
+
+class Car(Vehicle):
+    def move(self):
+        print("Driving 🚗")
+
+class Plane(Vehicle):
+    def move(self):
+        print("Flying ✈️")
+
+class Boat(Vehicle):
+    def move(self):
+        print("Sailing 🚤")
+        
